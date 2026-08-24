@@ -1,6 +1,6 @@
 # Allen-Cahn Nonlinear Target Transform
 
-Joint training of nonlinear target dynamics, observer injection, and conditionally invertible error transformations.
+研究三传感器条件下非线性稳定目标、条件可逆误差变换以及观测注入与变换的联合训练。
 
 ## 入口
 
@@ -11,3 +11,7 @@ Joint training of nonlinear target dynamics, observer injection, and conditional
 - `out/`：原始运行输出
 - `report/`：整理后的分析与结论
 - `tool/`：实验辅助工具
+
+本仓库从原综合实验的 `codex/r5-nonlinear-target-conditional-residual` 路线独立出来，并保留
+`nonlinear-target` 与 `three-sensor-dynamics-joint` 两条前驱实验。来源和冻结提交见
+`docs/source-provenance.md`。
