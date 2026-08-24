@@ -1,0 +1,10 @@
+[project]
+name = "allen-cahn-nonlinear-target-transform"
+version = "0.1.0"
+description = "Joint training of nonlinear target dynamics, observer injection, and conditionally invertible error transformations."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
