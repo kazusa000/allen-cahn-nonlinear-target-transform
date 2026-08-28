@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- 保留非线性目标、条件变换和直接收缩前驱报告，移除拆分时复制的其他机制与共享 pilot
+  报告；删除内容仍可从 `a987d8e74785` 的 Git 历史恢复。
 - 从原综合 Allen--Cahn 实验冻结并独立出非线性目标与条件可逆变换路线。
 - Froze the next fresh-split joint experiment around the LMI transform:
   `T_phi(u,e)=T0[e+g_tilde(u,e)-g_tilde(u,0)]`, retaining the full nonlinear
